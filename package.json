@@ -1,0 +1,34 @@
+{
+  "name": "gulp-css-inline-images",
+  "version": "0.1.0",
+  "description": "A wrapper to use css-inline-images in the Gulp task runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/driebit/gulp-css-inline-images.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "css",
+    "inline",
+    "images",
+    "embed"
+  ],
+  "author": "Sjors Rijsdam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/driebit/gulp-css-inline-images/issues"
+  },
+  "homepage": "https://github.com/driebit/gulp-css-inline-images",
+  "dependencies": {
+    "css-inline-images": "^0.1.0",
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}
