@@ -1,7 +1,7 @@
 'use strict';
 
 var cssInlineImages = require('css-inline-images'),
-    PluginError     = require('gulp-util/lib/PluginError'),
+    PluginError     = require('plugin-error'),
     through         = require('through2'),
 
     pluginName      = 'gulp-css-inline-images';
